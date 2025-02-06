@@ -2,38 +2,32 @@
 A simple note-taking app built with React that allows users to create, manage, search, and organize notes effortlessly. QuickNotes implements a RESTful API and includes authentication for login and registration, ensuring better security for user data. It is designed to provide a seamless and protected note-taking experience while maintaining efficiency and ease of use. 
 
 ✨ Features
-✅ User Authentication – Secure login and registration system to protect user data.
-✅ Create Notes – Add new notes with a title and content for future reference.
-✅ Delete Notes – Remove notes that are no longer needed.
-✅ Archive & Unarchive – Move notes to the archive or restore archived notes to the main list.
-✅ Search Notes – Quickly find notes using the search bar by filtering notes based on their title.
-✅ Dark & Light Mode – Seamlessly switch between light and dark themes for a comfortable experience.
-✅ Multi-language Support – The app supports English and Indonesian, and users can switch languages easily via the side menu.
+- User Authentication: Secure login and registration system to protect user data.
+- Create Notes: Add new notes with a title and content for future reference.
+- Delete Notes: Remove notes that are no longer needed.
+- Archive & Unarchive: Move notes to the archive or restore archived notes to the main list.
+- Search Notes: Quickly find notes using the search bar by filtering notes based on their title.
+- Dark & Light Mode: Seamlessly switch between light and dark themes for a comfortable experience.
+- Multi-language Support: The app supports English and Indonesian, and users can switch languages easily via the side menu.
 
 📂 Project Structure:
-✅ components/ – Reusable React components used to build the app's UI.
-✅ styles/ – Application styles using CSS.
-✅ utils/ – Utility functions for common operations, including API setup and date formatting.
-✅ pages/ – Page components that represent different views of the application.
-✅ hooks/ – Custom React hooks, such as useInput, for handling reusable logic.
-✅ contexts/ – Context providers like LocalContext and ThemeContext for managing language and theme state.
-✅ App.js – The main application component that initializes and renders the app.
+- components/: Reusable React components used to build the app's UI.
+- styles/: Application styles using CSS.
+- utils/: Utility functions for common operations, including API setup and date formatting.
+- pages/: Page components that represent different views of the application.
+- hooks/: Custom React hooks, such as useInput, for handling reusable logic.
+- contexts/: Context providers like LocalContext and ThemeContext for managing language and theme state.
+- App.js: The main application component that initializes and renders the app.
 
 🔑 How It Works
-1️⃣ Create an Account – Sign up to start using QuickNotes.
-2️⃣ Login – After registering, log in to access all features.
-3️⃣ Create a Note – Click the "Create" button, then fill out the form with a title and note content.
-4️⃣ View Notes – Notes are displayed in the "Active Notes" and "Archived Notes" sections. Newly created notes start with an "Active" status.
-5️⃣ Search Notes – Use the search bar to quickly find a specific note by title.
-6️⃣ Switch Theme & Language – Change between Light & Dark Mode, and toggle between English & Indonesian via the side menu.
+- Create an Account: Sign up to start using QuickNotes.
+- Login: After registering, log in to access all features.
+- Create a Note: Click the "Create" button, then fill out the form with a title and note content.
+- View Notes: Notes are displayed in the "Active Notes" and "Archived Notes" sections. Newly created notes start with an "Active" status.
+- Search Notes: Use the search bar to quickly find a specific note by title.
+- Switch Theme & Language: Change between Light & Dark Mode, and toggle between English & Indonesian via the side menu.
 
 📷 Screenshots:
-✅ Navigation Bar
-![Navigation Bar](https://github.com/user-attachments/assets/cf223d19-d71e-486f-8432-78a756ebb65c)
-
-✅ Side Bar
-![Side Menu Bar](https://github.com/user-attachments/assets/1db1b677-d175-4494-bbc7-4f66b7b47c5b)
-
 ✅ LIGHT MODE
 1. Login
 ![Login](https://github.com/user-attachments/assets/04050377-97a3-4f52-906c-b551b062d956)
